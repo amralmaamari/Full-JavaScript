@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Dashboard</title>
+</head>
+<body>
+    <nav class="nav">
+        <div class="logo">
+            <a href="#main.html" class=" logo-big"><img  src="image/logo.svg" alt="Logo"></a>
+            <a href="#main.html" class=" logo-mini "><img  src="image/logo-smallscreen.svg" alt="Logo"></a>
+        </div>
+
+        <div class="navbars container">
+
+                <div class="left">
+                    <i class="fa-solid fa-bars bars"></i>
+                    <div class="search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="text" placeholder="Search...">
+                    </div>
+                </div>
+
+                <div class="right">
+                    <a class="position-relative envelop" href="#"><i class="fa-solid fa-envelope"></i>
+                        
+                        <div class="envelope-box position-absolute">
+                            <h3>Messages</h3>
+                            <div class="box gap-2 mb-2">
+                                <div class="img">
+                                    <img class="img-fluid" src="image/avator.jpg" alt="">
+                                </div>
+                                <div class="text">
+                                    <h4>David Grey</h4>
+                                    <span>The Meeting is Cancelled</span>
+                                </div>
+                            </div>
+                            <div class="box gap-2 mb-2">
+                                <div class="img">
+                                    <img class="img-fluid" src="image/avator.jpg" alt="">
+                                </div>
+                                <div class="text">
+                                    <h4>Tim Cook</h4>
+                                    <span>New product lanuch</span>
+                                </div>
+                            </div>
+                            <div class="box gap-2">
+                                <div class="img">
+                                    <img class="img-fluid" src="image/avator.jpg" alt="">
+                                </div>
+                                <div class="text">
+                                    <h4>Hohnson</h4>
+                                    <span>Upcoming board meeting</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="position-relative bell"><i class="fa-solid fa-bell"></i>
+                        
+                        <div class="bell-box position-absolute">
+                            <h3>Notification</h3>
+                            <div class="box gap-2 mb-2">
+                                <div class="img">
+                                    <i class="fa-solid fa-circle-info"></i>
+                                </div>
+                                <div class="text">
+                                    <h4>David Grey</h4>
+                                    <span>The Meeting is Cancelled</span>
+                                </div>
+                            </div>
+                            <div class="box gap-2 mb-2">
+                                <div class="img">
+                                    <i class="fa-solid fa-gear"></i>
+                                </div>
+                                <div class="text">
+                                    <h4>Tim Cook</h4>
+                                    <span>New product lanuch</span>
+                                </div>
+                            </div>
+                            <div class="box gap-2">
+                                <div class="img">
+                                    <i class="fa-regular fa-image"></i>                                </div>
+                                <div class="text">
+                                    <h4>Hohnson</h4>
+                                    <span>Upcoming board meeting</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="portfolio">
+                        <img src="image/avator.jpg" alt="avator">
+                        <a href="#" class="position-relative info">
+                            <span>Amr Mohammed</span>
+                            <i class="fa-solid fa-caret-down dwon-arraow"></i>
+                            <div class="info-box position-absolute">
+                            
+                                <div class="box gap-2 mb-2">
+                                    <div class="img">
+                                        <i class="fa-solid fa-gear"></i>
+                                    </div>
+                                    <div class="text">
+                                        <h4>Settings</h4>
+                                    </div>
+                                </div>
+                                <div class="box gap-2 mb-2">
+                                    <div class="img">
+                                        <i class="fa-solid fa-right-from-bracket"></i>                                    </div>
+                                    <div class="text">
+                                        <h4>Logout</h4>
+                                    </div>
+                                </div>
+                            
+                            </div>
+                        </a>
+                    </div>
+                    <a href="#">
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </a>
+                </div>
+        </div>
+
+        
+    </nav>
+
+    <div class="main">
+        <div class="sidebar">
+                <div class="navside">
+                    <div class="nav-item">
+                        <a href="#" class="active">
+                            <i class="fa-solid fa-house"></i>
+                            <span>Dashboard</span>
+                        </a>
+                    </div>
+
+                    <div class="nav-item">
+                        <a href="#">
+                            <i class="fa-solid fa-puzzle-piece"></i>
+                            <span>Widgets</span>
+                        </a>
+                    </div>
+
+                    <div class="nav-item btnDown">
+                        <a href="#" >
+                            <i class="fa-solid fa-palette"></i>
+                            <span>UI Elements</span>
+                            <i class="fa-solid fa-caret-down dwon-arraow"></i>
+                        </a>
+                        <ul class="drop-down">
+                            <a href="#"><li>Acoordions</li></a>
+                            <a href="#"><li>Buttons</li></a>
+                            <a href="#"><li>Badges</li></a>
+                            <a href="#"><li>breedcrumbs</li></a>
+                            <a href="#"><li>Dropdowns</li></a>
+                            <a href="#"><li>Modals</li></a>
+                            <a href="#"><li>Progress bar</li></a>
+                            <a href="#"><li>Tabs</li></a>
+                            <a href="#"><li>Tooltips</li></a>
+                        </ul>
+                    </div>
+
+                    <div class="nav-item btnDown">
+                        <a href="#" >
+                            <i class="fa-solid fa-layer-group"></i>
+                            <span>Advanced UI</span>
+                            <i class="fa-solid fa-caret-down dwon-arraow"></i>
+                        </a>
+                        <ul class="drop-down">
+                            <a href="#"><li>Acoordions</li></a>
+                            <a href="#"><li>Buttons</li></a>
+                            <a href="#"><li>Badges</li></a>
+                            <a href="#"><li>breedcrumbs</li></a>
+                            <a href="#"><li>Dropdowns</li></a>
+                            <a href="#"><li>Modals</li></a>
+                            <a href="#"><li>Progress bar</li></a>
+                            <a href="#"><li>Tabs</li></a>
+                            <a href="#"><li>Tooltips</li></a>
+                        </ul>
+                    </div>
+
+                    <div class="nav-item btnDown">
+                        <a href="#" >
+                            <i class="fa-solid fa-barcode"></i>
+                            <span>Form elements</span>
+                            <i class="fa-solid fa-caret-down dwon-arraow"></i>
+                        </a>
+                        <ul class="drop-down">
+                            <a href="#"><li>Acoordions</li></a>
+                            <a href="#"><li>Buttons</li></a>
+                            <a href="#"><li>Badges</li></a>
+                            <a href="#"><li>breedcrumbs</li></a>
+                            <a href="#"><li>Dropdowns</li></a>
+                            <a href="#"><li>Modals</li></a>
+                            <a href="#"><li>Progress bar</li></a>
+                            <a href="#"><li>Tabs</li></a>
+                            <a href="#"><li>Tooltips</li></a>
+                        </ul>
+                    </div>
+
+                    <div class="nav-item btnDown">
+                        <a href="#" >
+                            <i class="fa-solid fa-pen-to-square"></i>
+                            <span>Editors</span>
+                            <i class="fa-solid fa-caret-down dwon-arraow"></i>
+                        </a>
+                        <ul class="drop-down">
+                            <a href="#"><li>Acoordions</li></a>
+                            <a href="#"><li>Buttons</li></a>
+                            <a href="#"><li>Badges</li></a>
+                            <a href="#"><li>breedcrumbs</li></a>
+                            <a href="#"><li>Dropdowns</li></a>
+                            <a href="#"><li>Modals</li></a>
+                            <a href="#"><li>Progress bar</li></a>
+                            <a href="#"><li>Tabs</li></a>
+                            <a href="#"><li>Tooltips</li></a>
+                        </ul>
+                    </div>
+
+                    <div class="nav-item btnDown">
+                        <a href="#" >
+                            <i class="fa-solid fa-table"></i>
+                            <span>Tables</span>
+                            <i class="fa-solid fa-caret-down dwon-arraow"></i>
+                        </a>
+                        <ul class="drop-down">
+                            <a href="#"><li>Acoordions</li></a>
+                            <a href="#"><li>Buttons</li></a>
+                            <a href="#"><li>Badges</li></a>
+                            <a href="#"><li>breedcrumbs</li></a>
+                            <a href="#"><li>Dropdowns</li></a>
+                            <a href="#"><li>Modals</li></a>
+                            <a href="#"><li>Progress bar</li></a>
+                            <a href="#"><li>Tabs</li></a>
+                            <a href="#"><li>Tooltips</li></a>
+                        </ul>
+                    </div>
+
+                    <div class="nav-item btnDown">
+                        <a href="#" >
+                            <i class="fa-solid fa-message"></i>
+                            <span>Popups</span>
+                            <i class="fa-solid fa-caret-down dwon-arraow"></i>
+                        </a>
+                        <ul class="drop-down">
+                            <a href="#"><li>Acoordions</li></a>
+                            <a href="#"><li>Buttons</li></a>
+                            <a href="#"><li>Badges</li></a>
+                            <a href="#"><li>breedcrumbs</li></a>
+                            <a href="#"><li>Dropdowns</li></a>
+                            <a href="#"><li>Modals</li></a>
+                            <a href="#"><li>Progress bar</li></a>
+                            <a href="#"><li>Tabs</li></a>
+                            <a href="#"><li>Tooltips</li></a>
+                        </ul>
+                    </div>
+
+                    <div class="nav-item">
+                        <a href="#" >
+                            <i class="fa-solid fa-bell"></i>
+                            <span>Notification</span>
+                        </a>
+                    
+                    </div>
+
+                    <div class="nav-item">
+                        <a href="#" >
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>Email</span>
+                        </a>
+                    
+                    </div>
+
+                    <div class="nav-item">
+                        <a href="#" >
+                            <i class="fa-solid fa-image"></i>
+                            <span>Gallery</span>
+                        </a>
+                    
+                    </div>
+
+                    <div class="nav-item">
+                        <a href="#" >
+                            <i class="fa-solid fa-file"></i>
+                            <span>Documentation</span>
+                        </a>
+                    
+                    </div>
+
+                    <div class="nav-item">
+                        <a href="#" >
+                            <i class="fa-solid fa-check"></i>
+                            <span>Todo List</span>
+                        </a>
+                    
+                    </div>
+
+                    <div class="nav-item">
+                        <a href="#" >
+                            <i class="fa-solid fa-calendar"></i>
+                            <span>Calender</span>
+                        </a>
+                    
+                    </div>
+
+                </div>
+                <div class="main">
+                    <div class="container">
+                        <div class="greating d-flex justify-content-between align-items-center">
+                            <h4>Hi, Welcomeback!</h4>
+                            <button>import</button>
+                        </div>
+
+                        <div class="box-wrap d-flex m-0 mb-5">
+                            <!-- Make padding btween the cards -->
+                            <div class="padding-box">
+                                <div class="box  d-flex align-items-center justify-content-center gap-2">
+                                    <i class="fa-solid fa-location-arrow"></i>
+                                    <div class="text text-white d-flex flex-column gap-2">
+                                        <span>Total Sales</span>
+                                        <h5>$508 <span>This month</span></h5>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+
+                            <div class="padding-box">
+                                <div class="box  d-flex align-items-center justify-content-center gap-2">
+                                    <i class="fa-solid fa-credit-card"></i>                                    
+                                    <div class="text text-white d-flex flex-column gap-2">
+                                        <span>Total Purchases    </span>
+                                        <h5>$905 <span>This month</span></h5>
+                                    </div>
+                                
+                                </div>
+                            </div>
+
+                            <div class="padding-box">
+                                <div class="box  d-flex align-items-center justify-content-center gap-2">
+                                    <i class="fa-solid fa-golf-ball-tee"></i>                                  
+                                    <div class="text text-white d-flex flex-column gap-2">
+                                        <span>Total Orders                                        </span>
+                                        <h5>$161 <span>This month</span></h5>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+
+                            <div class="padding-box">
+                                <div class="box  d-flex align-items-center justify-content-center gap-2">
+                                    <i class="fa-solid fa-barcode"></i>                                    <div class="text text-white d-flex flex-column gap-2">
+                                        <span>Total Growth                                        </span>
+                                        <h5>$231 <span>This month</span></h5>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="static mb-3">
+                            <div class="row m-0 ">
+                                <div class="col-lg-6  box">
+
+                                        <div class="text-wraper">
+                                            <div class="text mb-4">
+                                                <h5>Total Sales                                        </h5>
+                                                <span>Audience to which the users belonged while on the current date Audience to which the users belonged while on the current date Audience to which the users belonged while on the current date            </span>
+                                            </div>
+                                            <div class="num row">
+                                                <div class="col-3">
+                                                    <span>Revenue</span>
+                                                    <h4>13,956</h4>
+                                                </div>
+                                                <div class="col-3">
+                                                    <span>Returns</span>
+                                                    <h4>27,219
+                                                    </h4>
+                                                </div>
+                                                <div class="col-3">
+                                                    <span>Queries</span>
+                                                    <h4>03,386</h4>
+                                                </div>
+                                                <div class="col-3">
+                                                    <span>Invoices</span>
+                                                    <h4>04,739</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="img">
+                                            <img class="img-fluid" src="image/static.png" alt="">
+                                        </div>
+                                
+                            </div>
+                                <div class="col-lg-6 pe-0 d-flex flex-column justify-content-between">
+                                    <div class="two-box d-md-flex align-items-center justify-content-between mb-3 gap-2">
+                                        <div class="box w-100 ">
+                                            <div class="text">
+                                                <h4>Users</h4>
+                                                <div class="user d-flex align-items-center gap-3">
+                                                    <h3>33,956                                                </h3>
+                                                    <div class="increase d-flex align-items-center gap-2">
+                                                        <i class="fa-solid fa-arrow-up"></i>
+                                                        <span>+2.12%                                                    </span>
+                                                    </div>
+                                                </div>
+                                                <span>Total users world wide                                            </span>
+                                            </div>
+                                            <div class="img">
+                                                <img class="img-fluid" src="image/lifestyle.png" alt="">
+                                            </div>
+                                        </div>
+
+                                        <div class="box w-100">
+                                            <div class="text">
+                                                <h4>Users</h4>
+                                                <div class="user d-flex align-items-center gap-3">
+                                                    <h3>33,956                                                </h3>
+                                                    <div class="increase d-flex align-items-center gap-2">
+                                                        <i class="fa-solid fa-arrow-up"></i>
+                                                        <span>+2.12%                                                    </span>
+                                                    </div>
+                                                </div>
+                                                <span>Total users world wide                                            </span>
+                                            </div>
+                                            <div class="img">
+                                                <img class="img-fluid" src="image/lifestyle.png" alt="">
+                                            </div>
+                                        </div>
+                                        
+                                        
+                                    </div>
+                                    <div class="box p-4">
+                                        <h4>Downloads</h4>
+                                        <p>Watching ice melt. This is fun. Only you could make those words cute.                                        </p>
+
+                                        <div class="inline-offline d-flex align-items-center justify-content-around mt-5">
+                                            <div class="offline f-1 text-center">
+                                                <span>Offline</span>
+                                                <h5>45,</h5>
+                                                <h5>324</h5>
+                                            </div>
+                                            <div class="offline text-center">
+                                                <span>Online</span>
+                                                <h5>12,</h5>
+                                                <h5>236</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tables position-relative mb-3">
+                            <h2>Last of Products</h2>
+                            <div class="buttons mb-3 d-flex align-items-center justify-content-between ">
+                                <div class="wrapper-btn">
+                                    <button class="add-products"><i class="fa-solid fa-plus"></i> Add New Products</button>
+
+                                    <div class="pop-up position-absolute d-none">
+                                        <input class="name" type="text" placeholder="Name">
+                                        <input class="surname" type="text" placeholder="Surname">
+                                        <input class="phonenum" type="number" placeholder="Phone number">
+                                        <input class="email" type="email" placeholder="Email">
+                                        <input class="total" type="number" placeholder="price Total">
+                                        <button class="crea">Create</button>
+                                        <i class="fa-solid fa-xmark"></i>
+                                    </div>
+                                </div>
+                                <div class="search">
+                                    <select id="greet" onchange="changeMood()">
+                                        <option value="ByName"  >By Name</option>
+                                        <option value="ByEmail" >By Email</option>
+                                    </select>
+                                    <input type="text" placeholder="Search" class="search-input" onkeyup="searchTable(this.value)">
+                                </div>
+                            </div>
+                            <table>
+                                <thead>
+                                    <tr class="text-center">
+                                        <th>Name</th>
+                                        <th>Surname</th>
+                                        <th>Phone Number</th>
+                                        <th>email</th>
+                                        <th>Price Total</th>
+                                        <th>update</th>
+                                        <th>delete</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                
+                                    <!-- <tr class=" text-center">
+                                        <td>Amr</td>
+                                        <td>Mohammed</td>
+                                        <td>+919741725148</td>
+                                        <td>website.lovely@gmail.com</td>
+                                        <td>400$</td>
+                                        <td><button class="upd">update</button></td>
+                                        <td><button class="del">delete</button></td>
+                                    </tr>
+                                
+                                    <tr class=" text-center">
+                                        <td>Amr</td>
+                                        <td>Mohammed</td>
+                                        <td>+919741725148</td>
+                                        <td>website.lovely@gmail.com</td>
+                                        <td>400$</td>
+                                        <td><button class="upd">update</button></td>
+                                        <td><button class="del">delete</button></td>
+                                    </tr> -->
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div class="img-sliders">
+                            <div class="full">
+                                <div class="holder">
+                                    <img class="w-100 op-1" src="https://fakeimg.pl/1000x400/0923b3/ffffff?text=One" alt="">
+                                    <img class="w-100" src="https://fakeimg.pl/1000x400/0923b3/ffffff?text=Two" alt="">
+                                    <img class="w-100" src="https://fakeimg.pl/1000x400/0923b3/ffffff?text=Three" alt="">
+                                    <img class="w-100" src="https://fakeimg.pl/1000x400/0923b3/ffffff?text=Four" alt="">
+                                    <img class="w-100" src="https://fakeimg.pl/1000x400/0923b3/ffffff?text=Five" alt="">
+                                    <img class="w-100" src="https://fakeimg.pl/1000x400/0923b3/ffffff?text=Six" alt="">
+                                </div>
+                                <i class="fa-solid fa-chevron-right next "></i>
+                                <i class="fa-solid fa-chevron-left prev prevent"></i>
+                                </div>
+                                <!-- <ul class="position-absolute">
+                                    <li>1</li>
+                                    <li>2</li>
+                                </ul> -->
+                        </div>
+
+                        <div class="memory-game">
+                            <div class="info"></div>
+                        </div>
+
+                        
+                        </div>
+
+
+                    </div>
+                </div> 
+        </div>  
+    
+
+    </div>
+
+
+
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
